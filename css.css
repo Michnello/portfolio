@@ -1,0 +1,393 @@
+body
+{
+	background-color:#404040;
+	font-family:'Roboto';
+	font-size:20px;
+	color:white;
+	
+	
+	
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color:"white";
+}
+}
+	
+	}
+	
+	/*Linki */
+	
+	a:link
+		{
+			color:white;
+		}
+		a:visited
+		{
+			color:lightgray;
+		}
+		a:hover
+		{
+			color:white;
+		}
+		
+		a{
+     		 text-decoration:none;
+  			 }
+		
+		
+		
+		#container
+		{
+			width:1000px;
+			margin-left:auto;
+			margin-right:auto;
+			
+			
+		}
+
+		
+		h1
+		{
+			font-size: 40px;
+			font-weight:300;
+		}
+		
+		
+		#logo
+		{
+			margin-left:20px;
+			margin-top:20px;
+			font-size:40px;
+			color:white;
+			font-family:'Roboto', sans-serif;
+			font-weight:300;
+		}
+
+
+		#logo2
+		{
+			margin: auto;
+ 			margin-top:10px;
+ 			width: 50%;
+			font-size:50px;
+			color:white;
+			text-align: center;
+			font-family:'Roboto', sans-serif;
+			font-weight:300;
+			}
+
+		
+		#menu
+		{
+			margin-left:auto;
+			margin-right:8px;
+			background-color:black;
+			margin-top:20px;
+			padding:10px; 
+			border-top:1px solid #ffffff;
+			border-bottom:1px solid #ffffff;
+			border-left:1px solid #ffffff;
+			border-right:1px solid white;
+			border-radius:50px;
+			display:flex;
+			align-items:flex-start;
+			
+			
+		}
+		
+		
+		#mend
+		{
+			margin-top:20px;
+			
+		}
+		
+		#zdjecie
+		{
+			margin-top:25px;
+			float:left;
+		}
+		#opis
+		{
+			float:left;
+			margin-left:3px;
+			
+		}
+		
+		.option
+		{
+			float:left;
+			min-width:70px;
+			height:25px;
+			margin-left:3px;
+			margin-right:3px;
+			padding:10px;
+			border-right:1px solid #ffffff;
+			border-radius:20px;
+			font-size:25px;
+			flex:1;
+			text-align:center;
+			font-weight:300;
+
+			
+			
+		}
+				
+		.optionport
+		{
+			float:center;
+			min-width:70px;
+			height:25px;
+			margin-left:3px;
+			margin-right:3px;
+			padding:10px;
+			border-radius:20px;
+			font-size:25px;
+			flex:1;
+ 			align-items: center;
+ 			justify-content: center;
+			text-align:center;
+			font-weight:200;
+
+			
+			
+		}
+					
+		.option2
+		{
+			float:left;
+			min-width:70px;
+			height:25px;
+			margin-left:3px;
+			margin-right:3px;
+			padding:10px;
+			border-right:1px solid #ffffff;
+			background-color:#00a6ff;
+			border-radius:20px;
+			font-size:25px;
+			font-weight:bold;
+			flex:1;
+			text-align:center;
+
+			;
+					}
+					
+			.option:hover
+			{
+				background-color:blue;
+				cursor:pointer;
+			}
+			
+			
+			
+			.option2:hover {
+				background-color:blue;
+				cursor:pointer;
+				
+			}
+			
+			
+		.grid-container {
+  			  display: grid;
+   			 grid-template-columns: 1fr 1fr;
+   			 float:left;
+  			margin-top:25px;
+  			  gap:5px;
+			}
+			
+			.center {
+		   font-family:'Roboto', sans-serif;
+		   font-weight:200px;
+ 			 margin: auto;
+ 			 margin-top:10px;
+ 			 width: 50%;
+ 			 border: 2px solid white;
+ 			 padding: 10px;
+ 			 text-align: center;
+  			border: 1px solid white;
+  			background-color:black;
+  			border-radius:50px;
+  			font-size:40px;
+			}
+			
+			.center:hover {
+				background-color:blue;
+				cursor:pointer;	
+				font-weight:bold;
+
+				
+			}
+			.centring
+			{
+			margin-top:10px;
+			display: flex;
+			justify-content: center;
+			
+				
+			}
+			
+			
+			#footer {
+		   font-family:'Roboto', sans-serif;
+		   text-align:center;
+		   margin: auto;
+		   padding-left: 3px;
+		   padding-right: 3px;
+		   padding-top:2px;
+		   font-size:15px;
+		   position:relative;
+		   bottom:0;
+		   width:900;
+		   height:20px;   
+   			background:black;
+   			margin-bottom:10px;
+}
+
+			#footer2 {
+		   font-family:'Roboto', sans-serif;
+		   text-align:center;
+		   margin: auto;
+		   padding-left: 3px;
+		   padding-right: 3px;
+		   padding-top:2px;
+		   font-size:15px;
+		   position:absolute;
+		   bottom:5px;
+		   width:900;
+		   height:20px;   
+   			background:black;
+   			margin-bottom:0px;
+}
+
+		#foto
+		{
+			clear:both;	
+			margin-left:40px;
+			margin-top:10px;
+			font-size:20px;
+			padding:5px;
+			color:white;
+			font-family:'Roboto', sans-serif;
+		}
+		
+		#strona
+		{
+			clear:both;	
+			margin-left:40px;
+			margin-top:10px;
+			font-size:20px;
+			padding:5px;
+			color:white;
+			font-family:'Roboto', sans-serif;
+			border-radius:10px;
+		}
+		
+		#desc
+		{
+			position: relative;
+			margin-left:0px;
+			margin-top:20px;
+			font-size:40px;
+			color:white;
+			font-family:'Roboto', sans-serif;
+			padding:3px;
+			top:0px;
+			background-color:none;
+			
+		}
+		#demi{
+			margin-top:3px;
+			font-family:'Roboto', sans-serif;
+			font-size:25px;
+			color:white;
+			font-weight:300;
+			
+		}
+		
+		#container-foto
+		{
+			width:998px;
+			text-align:left;
+			margin-right:0;
+			margin-left:auto;
+			float: right;
+			padding:5px;
+			justify-content: center;
+			align-items: center;
+
+			display:flex;
+
+			
+		}
+
+		#fot
+		{
+			padding-top:25px
+			
+		}
+
+		
+		#bios 
+		{
+			padding-top:2px;
+			font-family:'Roboto', sans-serif;
+			font-weight:300;
+				
+		}
+				
+		img{
+		transition: transform .2s;
+		margin:15px, auto;
+		border-radius: 8px;
+		}
+		
+		#foto img:hover{
+		transform: scale(2)
+		}
+		
+		
+		
+		#demi{
+		font-family:'Roboto', sans-serif;
+		text-align:left;
+		font-size:23px;
+		margin-top:15px;
+		}
+		
+		
+	.maile{
+		font-family:'Roboto', sans-serif;
+		font-size:20px;
+		text-align:center;
+		color:white;
+		justify-content: center;
+			align-items: center;
+			float:center;
+			display:flex;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:15px;
+		
+	}
+	.maile:hover{
+		cursor:pointer;
+		color:green;
+			
+	
+		
+	iframe.myCoolIframe {
+		width: 930px;
+		height: 600px;
+		border-radius: 20px;
+
+	}
+
+		
+
+				
+		/* Autorem tego kodu jest Michał Żyszkiewicz */

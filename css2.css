@@ -1,0 +1,188 @@
+/* rozwijane portfolio1 */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  padding:0px 10px;
+  border-right:1px solid #ffffff;
+  border-radius:20px;
+  min-width:70px;
+  margin-left:3px;
+  margin-right:3px;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+  padding:0px 10px;
+  border-right:1px solid #ffffff;
+  border-radius:20px;
+  min-width:70px;
+  margin-left:3px;
+  margin-right:3px;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+  background-color:#00a6ff;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;  
+  font-weight:300;
+}
+
+.dropdown:hover {background-color:blue;}
+
+.menu a:hover, .dropbtn {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color:black;
+  border-radius:20px;
+  font-weight:200;
+  font-size:25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.dropdown-content a:hover {
+  background-color: blue;
+
+}
+
+.dropdown:hover .dropdown-content {
+  border-radius:20px;
+  display: block;
+}
+
+/* rozwijane portfolio 2 */
+
+.dropdown2 .dropbtn {
+  font-size: 25px;  
+  font-weight:300;
+}
+
+.dropdown2:hover {background-color:blue;}
+
+.menu a:hover, .dropbtn {
+  background-color: blue;
+}
+
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    
+
+}
+
+.dropdown2-content a {
+  float: none;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color:black;
+  border-radius:20px;
+  font-weight:200;
+  font-size:25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.dropdown2-content a:hover {
+  background-color: blue;
+
+}
+
+.dropdown2:hover .dropdown2-content {
+  border-radius:20px;
+  display: block;
+}
+
+.optionport2
+		{
+			float:center;
+			min-width:70px;
+			height:25px;
+			margin-left:3px;
+			margin-right:3px;
+			padding:10px;
+			border-radius:20px;
+			font-size:25px;
+			flex:1;
+ 			align-items: center;
+ 			justify-content: center;
+			text-align:center;
+			font-weight:bold;
+}
+
+/* ruchome tło */
+
+body {
+	background: linear-gradient(45deg, black, #404040, black);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: flex;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#plak
+{
+	clear:both;	
+			margin-left:40px;
+			margin-top:10px;
+			font-size:20px;
+			padding:5px;
+			color:white;
+			font-family:'Roboto', sans-serif;
+}
+
+#plak img:hover {
+		transform: scale(1.5)
+		}
+		
+
+
+
+		/* Autorem tego kodu jest Michał Żyszkiewicz */
