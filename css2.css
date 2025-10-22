@@ -1,4 +1,9 @@
 /* rozwijane portfolio1 */
+a:link
+   {
+		color:white;
+   }
+
 .dropdown {
   float: left;
   overflow: hidden;
