@@ -216,7 +216,7 @@ body
 			}
 			
 			.center:hover {
-				background-color:blue;
+				background-image: radial-gradient(circle, blue, black);
 				cursor:pointer;	
 				font-weight:bold;
 
