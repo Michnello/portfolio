@@ -1,0 +1,96 @@
+
+	#guzik1{
+		font-family:'Roboto', sans-serif;
+			
+		padding:5px;
+		font-size:12px;
+		background-color:white;
+		border:none;
+		margin-top:12px;
+		color:black;
+		margin-left:20px;
+		font-style:italic;
+		padding-left:3px;
+		border-radius: 3px;
+		
+	}
+	
+	#guzik1:hover{
+		cursor:pointer;
+		color:white;
+		background-color:blue;
+		transform: scale(1.2)
+		
+		
+	}
+	
+	#guzik2{
+		font-family:'Roboto', sans-serif;
+			
+		padding:5px;
+		font-size:12px;
+		background-color:white;
+		border:none;
+		margin-top:12px;
+		color:black;
+		margin-left:20px;
+		font-style:italic;
+		padding-left:3px;
+		border-radius: 3px;
+		
+	}
+	
+	#guzik2:hover{
+		cursor:pointer;
+		color:white;
+		background-color:blue;
+		transform: scale(1.2)
+		
+		
+	}
+	
+	#container-socs
+		{
+			width:998px;
+			text-align:left;
+			margin-right:auto;
+			margin-left:auto;
+			padding:5px;
+			margin-top:0px
+			float:left;
+			justify-content: center;
+			align-items: center;
+			display:flex;
+
+			
+		}
+
+	#socs{
+			font-size:23px;
+			margin-top:15px;
+			text-align:center;
+			padding:20px;
+		
+		}
+		
+		#demi{
+		font-family:'Roboto', sans-serif;
+		text-align:center;
+		font-size:23px;
+		margin-top:15px;
+		margin-right:50px;
+		margin-left:50px;
+		}
+		
+		.malp{
+			font-family:'Roboto', sans-serif;
+		text-align:center;
+		font-size:23px;
+		margin-top:0px;
+		margin-right:50px;
+		margin-left:50px;
+			
+			
+			
+			
+		}
