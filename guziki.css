@@ -48,7 +48,34 @@
 		
 		
 	}
+	}
 	
+	#guzik3{
+		font-family:'Roboto', sans-serif;
+			
+		padding:5px;
+		font-size:12px;
+		background-color:white;
+		border:none;
+		margin-top:12px;
+		color:black;
+		margin-left:20px;
+		font-style:italic;
+		padding-left:3px;
+		border-radius: 3px;
+		
+	}
+	
+	#guzik3:hover{
+		cursor:pointer;
+		color:white;
+		background-color:blue;
+		transform: scale(1.2)
+		
+		
+	}
+
+
 	#container-socs
 		{
 			width:998px;
