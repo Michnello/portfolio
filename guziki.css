@@ -1,7 +1,6 @@
 
 	#guzik1{
 		font-family:'Roboto', sans-serif;
-			
 		padding:5px;
 		font-size:12px;
 		background-color:white;
@@ -12,21 +11,24 @@
 		font-style:italic;
 		padding-left:3px;
 		border-radius: 3px;
-		
 	}
 	
 	#guzik1:hover{
 		cursor:pointer;
 		color:white;
 		background-color:blue;
-		transform: scale(1.2)
-		
-		
+		transform: scale(1.2)	
+	}
+
+#guzik1:active{
+		cursor:pointer;
+		color:white;
+		background-color:#00a6ff;
+		transform: scale(1.1)	
 	}
 	
 	#guzik2{
 		font-family:'Roboto', sans-serif;
-			
 		padding:5px;
 		font-size:12px;
 		background-color:white;
@@ -45,14 +47,17 @@
 		color:white;
 		background-color:blue;
 		transform: scale(1.2)
-		
-		
 	}
 	
-	
+#guzik2:active{
+		cursor:pointer;
+		color:white;
+		background-color:#00a6ff;
+		transform: scale(1.1)	
+	}
+
 	#guzik3{
 		font-family:'Roboto', sans-serif;
-			
 		padding:5px;
 		font-size:12px;
 		background-color:white;
@@ -63,7 +68,6 @@
 		font-style:italic;
 		padding-left:3px;
 		border-radius: 3px;
-		
 	}
 	
 	#guzik3:hover{
@@ -71,9 +75,14 @@
 		color:white;
 		background-color:blue;
 		transform: scale(1.2)
-		
 	}
 
+#guzik3:active{
+		cursor:pointer;
+		color:white;
+		background-color:#00a6ff;
+		transform: scale(1.1)	
+	}
 
 		#container-socs
 		{
