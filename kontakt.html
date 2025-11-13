@@ -4,10 +4,10 @@
 	<meta charset="utf-8"/>
 	<title>Kontakt</title>
 	<meta name="keywords" content="Biografia" />
-	<link rel="stylesheet" href="css.css" type="text/css"/>
-	<link rel="stylesheet" href="css2.css" type="text/css"/>
+	<link rel="stylesheet" href="/css.css" type="text/css"/>
+	<link rel="stylesheet" href="/css2.css" type="text/css"/>
 	<link rel="stylesheet" href="/guziki.css" type="text/css"/>
-	<link rel="icon" href="icon.ico" type="ico" /> 
+	<link rel="icon" type="image/x-icon" href="/favicon.ico"/> 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
@@ -26,15 +26,16 @@
 		
 	<div id="container">
 			
-		<div id="logo"><a href="strona.html"><h1 style="font-size:40px">Michnel Żyszkiewicz</h1></div></a>
+		<div id="logo"><a href="/index.html"><h1 style="font-size:40px">Michnel Żyszkiewicz</h1></div></a>
 		
 			<div id="menu">
 			
-			<a href="strona.html"><div class="option">Menu:</div></a>  <div class="option"><a href="podstrona2.html">Biografia</div></a> <div class="option"><a href="podstrona1.html">GBL Studios</div> </a><div class="dropdown"><div class="optionport"><a href="portfolio.html">Portfolio</a></div><div class="dropdown-content"><a href="portzdj.html">Zdjęcia</a><a href="portwideo.html">Wideo</a><a href="portgraf.html">Grafiki</a></div></div> </a><div class="option"><a href="sociale.html">Sociale</div></a><div class="option2"><a href="strona.html">Kontakt</a></div>
+			<a href="/index.html"><div class="option">Menu:</div></a>  <div class="option"><a href="/biografia">Biografia</div></a> <div class="option"><a href="/gbl">GBL Studios</div> </a><div class="dropdown"><div class="optionport"><a href="/portfolio/">Portfolio</a></div><div class="dropdown-content"><a href="/portzdj/">Zdjęcia</a><a href="/portwideo/">Wideo</a><a href="/portgraf/">Grafiki</a></div></div> </a><div class="option"><a href="/sociale/">Sociale</div></a><div class="option2"><a href="/kontakt/">Kontakt</a></div>
 			<div style="clear:both;"></div>
 		</div>			
 	<br><div id="demi">
 	Zachęcam do kontaktu bezpośrednio w wiadomości na instagramie lub na któryś z poniżej podanych adresów e-mail:</div>
+	<div class="maile"><a href="mailto:michnel-09@wp.pl"><i>michnel-09@wp.pl</a></i><button id="guzik3" onclick="guzik3 ()">kopiuj</button></div>	
 	<div class="maile"><br><a href="mailto:michnel.zyszkiewicz17@gmail.com"><i>michnel.zyszkiewicz17@gmail.com</a></i><button id="guzik1" onclick="guzik1 ()">kopiuj</button></div>
 	<div class="maile"><a href="mailto:michal.zyszkiewicz@dziennikwschodni.pl"><i>michal.zyszkiewicz@dziennikwschodni.pl</a></i><button id="guzik2" onclick="guzik2 ()">kopiuj</button></div>
 	<script>
@@ -43,15 +44,24 @@
             navigator.clipboard.writeText
                 ("michnel.zyszkiewicz17@gmail.com");
         }
+		
 		function guzik2() {
 			var copyText = document.getElementById("guzik2");
             navigator.clipboard.writeText
                 ("michal.zyszkiewicz@dziennikwschodni.pl");
         }
+
+		function guzik3() {
+			var copyText = document.getElementById("guzik3");
+            navigator.clipboard.writeText
+                ("michnel-09@wp.pl");
+        }
 		
 	</script>
-        
-
+        <br>
+		<div class="centring">
+		Pobierz wizytówkę klikając <br> <a href="/mz-wiz.png">&nbsp;tutaj!</a>
+		</div>
     </div>
     </div>	
 	<div class="centring">	<div id="footer2">
